@@ -1,3 +1,4 @@
 temp/*
+!temp/defaultglassy.zip
 tempimg/thumbs/*
 logs/*
