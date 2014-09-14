@@ -50,7 +50,7 @@ define('STOCKIMGPATH',"./stockimg"); // path (relative or absolute) for publicly
 define('STOCKIMGTHUMBPATH',STOCKIMGPATH."/thumbs"); // path (relative or absolute) for button image thumbs
 define('USRIMGPATH',"./tempimg"); // path (relative or absolute) for user uploading of button image files
 define('USRIMGTHUMBPATH',USRIMGPATH."/thumbs"); // path (relative or absolute) for uploaded of button image thumbs
-define('FONTPATH',"/usr/share/fonts/truetype/ttf-dejavu"); // path (relative or absolute) for publicly available fonts
+define('FONTPATH',"/usr/share/fonts/truetype/dejavu"); // path (relative or absolute) for publicly available fonts
 define('USRFONTPATH',"./fonts/userfonts"); // path (relative or absolute) for user uploading of TrueType fonts
 define('LOGGINGPATH',"./logs"); // path (relative or absolute) for Glassy Buttons logs
 //
