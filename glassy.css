@@ -1,0 +1,26 @@
+hr {border-color : #cccccc; border-style : solid; border-width : 1px; }
+img {border-width : 0; text-align : center;}
+input.color {color : black; font-size : 9pt; font-family : courier; width: 0.8in}
+input.file {width: 2in;}
+input.text {color : black; font-size : 9pt; font-family : arial,sans-serif; width: 0.8in}
+li.helpitem {text-align : justify; font-family : arial,sans-serif; }
+p.helpitem {text-align : justify; font-family : arial,sans-serif; }
+p.foot {font-size : 8pt; vertical-align : middle; text-align : center; font-family : arial,sans-serif; font-weight : bold; }
+table.foot {padding : 0; margin : 0;  font-size : 10pt; text-align : center;}
+table.head {padding : 0; margin : 0; width : 700px; font-size : 10pt; }
+table.form {padding : 0; margin : 0; border-width : 0; }
+table.form textarea {width : 180px; height : 32px;}
+table.form td {color : black; }
+td.clearpreview {text-align : center; font-family : arial,sans-serif; font-weight : normal; width : 5.5in; vertical-align : middle; height : 1in; background-image: url(clear.jpg);}
+td.foot {font-size : 9pt; text-align : center; font-family : arial,sans-serif; font-weight : normal;  vertical-align : middle; width : 3.75in;}
+td.formdesc {font-size : 9pt; text-align : right; font-family : arial,sans-serif; font-weight : normal; width : 1.5in; vertical-align : top; }
+td.formedit {font-size : 9pt; text-align : left; font-family : arial,sans-serif; font-weight : normal; width : 2.5in; vertical-align : top; }
+td.h1 {font-size : 30pt; text-align : left; vertical-align: bottom; font-family : arial,sans-serif; }
+td.h3 {font-size : 15pt; text-align : right; vertical-align: bottom; font-family : arial,sans-serif; }
+td.margin {text-align : center; font-family : arial,sans-serif; font-weight : normal; width : 1in; vertical-align : middle; }
+td.menu {text-align : left; font-family : arial, sans-serif; font-weight : bold; }
+td.menulist {vertical-align : top; width : 2.0in; }
+td.preview {text-align : center; font-family : arial,sans-serif; font-weight : normal; width : 5.5in; vertical-align : middle; height : 1in; background-color : #ffffff}
+td.sel {text-align : left; font-family : arial,sans-serif; font-weight : bold; }
+td.smerr {color : red; font-size : 9pt; font-family : arial,sans-serif; font-weight : bold; width : 2.5in; vertical-align : top; }
+td.sminfo {font-size : 8pt; font-family : arial,sans-serif; vertical-align : top; }

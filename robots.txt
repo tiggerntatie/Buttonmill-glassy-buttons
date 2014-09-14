@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /temp/
+Disallow: /fonts/
+Disallow: /tempimg/
+Disallow: /logs/
+Disallow: /stockimg/
+Disallow: /img/
