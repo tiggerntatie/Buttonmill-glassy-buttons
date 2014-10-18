@@ -184,8 +184,8 @@ $defaultzip =  file_exists(IMGPATH."/".DEFAULTZIP);
 // only bother rendering if we're referred here from ourself.
 // people coming in from outside shouldn't have to wait for anything!
 // if the url includes a cache identifier, use it
-$neww = 0   // worst case: we can't produce an image!
-$newh = 0
+$neww = 0;   // worst case: we can't produce an image!
+$newh = 0;
 if (!empty($cachename))
 {
   $zippath = IMGPATH."/".$cachename;
