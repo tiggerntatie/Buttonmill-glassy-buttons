@@ -21,7 +21,7 @@
 session_start();
 
 // play with fire here!  careful!
-set_time_limit(60);
+set_time_limit(30);
 
 // includes
 require("buttonincludes.php");
@@ -58,6 +58,13 @@ $image_foregroundcolor = isset($_REQUEST[IMAGEFORECOLOR]) ? $_REQUEST[IMAGEFOREC
 $image_transparent = isset($_REQUEST[IMAGETRAN]) ? $_REQUEST[IMAGETRAN] : "";
 $image_transparentcolor = isset($_REQUEST[IMAGETRANCOLOR]) ? $_REQUEST[IMAGETRANCOLOR] : "";
 
+
+// Shutdown spammers, with prejudice!
+if (strpos($button_text, 'http://') !== FALSE)
+{
+    header('Location: http://glassybuttons.com');
+    die();
+}
 
 // whether to render or use cached image
 $fromhere = isset($_REQUEST['fromhere']) ? $_REQUEST['fromhere'] : "";
