@@ -734,7 +734,7 @@ transparent color
   <br />
   This site is generated dynamically using software produced by the Buttonmill project. To the extent possible under law,
   <a 
-     href="https://launchpad.net/buttonmill">
+     href="https://github.com/tiggerntatie/Buttonmill-glassy-buttons">
     <span >Eric Dennison</span></a>
   has waived all copyright and related or neighboring rights to
   <span >Buttonmill</span>.
