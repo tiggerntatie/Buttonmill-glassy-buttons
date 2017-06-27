@@ -393,7 +393,7 @@ function generate_images(
 
 
   // set new permissions
-  chmod($zippath.".zip", 0644);
+  chmod($zippath.".zip", 0655);
 
   // tell the caller where to look for the new file!
   return IMGPATH."/".basename($zippath);
